@@ -1,6 +1,6 @@
 block b-layout-table {
 
-    tag: 'table'
+    tag: 'table', attrs: { 'role' : 'presentation' }
 
     elem row, tag: 'tr'
 
